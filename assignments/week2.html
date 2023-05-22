@@ -5,7 +5,7 @@
   </head>
 <body>
   <h1>Sample Image</h1>
-    <img src="https://drive.google.com/file/d/1B7PDXV5WcycctixI80ye_T-ZhatvmnBj/view?usp=share_link" alt="">
+    <img src="https://debbielouangeles.github.io/P547/images/banksy_rat" alt="">
     <caption>Banksy street art of a rat with a paint brush next to the phrase, "I'm out of bed and dressed -What more do you want?"</caption>
   <h1>Sample Table</h1>
   <table>
@@ -25,11 +25,12 @@
   <h1>Sample Form</h1>
     <form>
       <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" value="<?php echo $fname;?>"><br>
       <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname" value="<?php echo $lname;?>"><br>
       <label for="hhouse">Hogwarts house:</label><br>
-        <input type="text" id="hhouse" name="hhouse">
+        <input type="text" id="hhouse" name="hhouse" value="<?php echo $hhouse;?>">
+      <input type="submit" name="submit" value="Submit">
     </form>
   </body>
 </html>

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color: #C5E7D5;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 20pt;	
+}
+h2 {
+	font-size: 18pt;
+}
+
+div {
+	padding: 5px 20px;
+	
+}
+
+div.color {
+	width: 600px;
+	background-color: #B7DAE8;
+	border: 5px dotted #09007F;
+}
+
+div.color p {
+	color: #09007F;
+	
+}

@@ -28,3 +28,25 @@ div.color p {
 	color: #09007F;
 	
 }
+
+p.css-text {
+	color: #004958;
+	font-weight: bold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 24pt;
+}
+
+div.css-box {
+	background: #C97F80;
+	border: #3D0035 dotted 5px;
+	padding: 0px 10px;
+}
+
+div.css-box p {
+	color: #3D0035;
+}
+
+ul.css-list li {
+	color: #0E3900;
+	list-style: upper-roman;
+}

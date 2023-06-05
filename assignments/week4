@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Week 4 HTML &amp; CSS Assignment: Text, Boxes, Lists, Tables, and Forms</title>
+	<link href="https://debbielouangeles.github.io/P547/styles/week3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>CSS Text Example</h1>
+		<p class="css-text">This text was formatted using external CSS.</p>
+	
+	<h1>Boxes Example</h1>
+		<div class="css-box">			
+			<p>This text within a formatted box.</p>
+		</div>
+	<h1>CSS List Examples</h1>
+	<ul class="css-list">
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+		<li>Five</li>
+	</ul>
+</body>
+
+</html>

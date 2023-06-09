@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #DCE2DC;
+	color: #000;
+	font-family: "Raleway", Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.container {
+	width: 900px;
+	height: inherit;
+	margin: auto;
+	background: #fff;
+	border: 1px solid #cf755a;
+}
+
+header h2 {
+	position: absolute;
+	margin: 10px;
+	color: #CF755A;
+	font-size: 24pt;
+}
+
+header img {
+	max-width: 900px;
+}
+
+nav, nav ul {
+	margin: -5px 0 0;
+	padding: 0;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	background: #CF755A;
+	color: #FBF2EF;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 16pt;
+}
+
+nav li.active {
+	background: #DCE2DC;
+	color: #CF755A;
+}
+
+section {
+	height: auto;
+}
+
+aside {
+	width: 25%;
+	float: right;
+	padding: 5px;
+	margin: 0 20px;
+	background: #CF755A
+}
+
+aside h2 {
+	margin: 0;
+	font-size: 16pt;
+	color:#FBF2EF;
+}
+
+aside li {
+	color: #FBF2EF;
+}
+
+h1, h2 {
+	font-variant: small-caps;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+h1 {
+	font-size: 45pt;
+	color: #CF755A;
+	line-height: 30pt;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-size: 25pt;
+}
+
+p, li {
+	font-size: 14pt;
+	line-height: 20pt;
+	font-family: Calibri, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+p {
+	padding: 0 1em;
+}
